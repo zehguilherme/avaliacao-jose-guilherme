@@ -8,14 +8,19 @@
 
 ### Back-end ⚙
 
-- NodeJS
-- Express
+- [Node](https://nodejs.org/en/)
+- [Express](https://expressjs.com/pt-br/) - Framework
 - Nodemon
+- [Knex](http://knexjs.org/) - Query Builder
+- [SQLite](https://www.sqlite.org/index.html) - Banco de dados relacional
+- [Nodemon](https://nodemon.io/)
 
 
 ### Front-end
 
-- React
+- [React](https://pt-br.reactjs.org/) - Web
+- Rotas da aplicação
+  - React router dom - `npm install react-router-dom`
 
 --------
 
