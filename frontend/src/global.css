@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap"); /*Fonte Roboto*/
+
+/* Reset geral */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0; /*contorno*/
+  box-sizing: border-box; /*padding dos elementos vai ser anexado na largura e altura e não somente somados*/
+}
+
+body {
+  font: 400 14px Roboto, sans-serif;
+  background: #f0f0f5;
+  -webkit-font-smoothing: antialised; /*Melhora a visualização da fonte*/
+}
+
+input,
+button,
+label {
+  font: 400 18px Roboto, sans-serif;
+}
+
+a {
+  font: 400 14px Roboto, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
