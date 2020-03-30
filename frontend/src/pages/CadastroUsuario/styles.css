@@ -1,0 +1,29 @@
+.cadastro-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cadastro-container .form {
+  margin-top: 50px;
+}
+
+.cadastro-container .form h1 {
+  margin-bottom: 20px;
+}
+
+.cadastro-container .form form label {
+  display: block;
+  float: left;
+}
+
+.cadastro-container .form form input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cadastro-container .form form button {
+  width: 30%;
+}

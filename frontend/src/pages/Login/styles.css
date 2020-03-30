@@ -1,0 +1,47 @@
+.login-container {
+  width: 100%;
+  display: flex;
+  align-items: center; /*alinhar na vertical*/
+  justify-content: center; /*alinhar na horizontal*/
+}
+
+.login-container section.form {
+  margin-top: 50px;
+}
+
+div#lock-image {
+  text-align: center;
+}
+
+img {
+  height: 150px;
+  width: auto;
+}
+
+.login-container section.form form h1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.login-container section.form form input {
+  display: block;
+}
+
+.login-container section.form form input#user,
+.login-container section.form form input#password {
+  margin-bottom: 10px;
+}
+
+.login-container section.form form button {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-container section.form form a {
+  text-decoration: none;
+}
+
+.login-container section.form form .no-registration {
+  text-align: center;
+}
