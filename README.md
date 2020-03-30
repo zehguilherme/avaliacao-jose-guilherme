@@ -10,7 +10,6 @@
 
 - [Node](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/) - Framework
-- Nodemon
 - [Knex](http://knexjs.org/) - Query Builder
 - [SQLite](https://www.sqlite.org/index.html) - Banco de dados relacional
 - [Nodemon](https://nodemon.io/)
