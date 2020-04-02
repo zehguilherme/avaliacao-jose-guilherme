@@ -1,0 +1,68 @@
+.consulta-usuario-container {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.consulta-usuario-container .form {
+  margin-top: 50px;
+}
+
+.consulta-usuario-container .form form header {
+  margin-bottom: 40px;
+}
+
+.consulta-usuario-container .form form header h1 {
+  margin-right: 40px;
+  display: inline;
+}
+
+.consulta-usuario-container .form form header a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background: red;
+  padding: 6px;
+  border-radius: 8px;
+  transition-duration: 0.5s;
+}
+
+.consulta-usuario-container .form form header a:hover {
+  background-color: rgb(200, 0, 0);
+}
+
+.consulta-usuario-container .form form ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /*2 colunas com 1 unidade flexivel*/
+  grid-gap: 30px; /*distanciamento horizontal e vertical entre cada um dos clientes*/
+}
+
+.consulta-usuario-container .form form ul li {
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.consulta-usuario-container .form form ul li div {
+  margin-bottom: 5px;
+}
+
+/* Primeira div */
+.consulta-usuario-container .form form ul li div:first-child {
+  margin-top: 10px;
+}
+
+/* Última div */
+.consulta-usuario-container .form form ul li div:last-child {
+  margin-bottom: 10px;
+}
+
+.consulta-usuario-container .form form ul li strong {
+  display: inline;
+  margin-right: 3px;
+}
+
+.consulta-usuario-container .form form ul li p {
+  display: inline;
+}
