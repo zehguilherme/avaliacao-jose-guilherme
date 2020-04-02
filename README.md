@@ -8,6 +8,8 @@
 
 ### Back-end ⚙
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8d14a977c9b24a1eba861377961d7cec)](https://app.codacy.com/manual/zehguilherme/avaliacao-jose-guilherme?utm_source=github.com&utm_medium=referral&utm_content=zehguilherme/avaliacao-jose-guilherme&utm_campaign=Badge_Grade_Dashboard)
+
 - [Node](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/) - Framework
 - [Knex](http://knexjs.org/) - Query Builder
