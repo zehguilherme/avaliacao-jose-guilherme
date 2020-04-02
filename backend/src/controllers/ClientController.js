@@ -14,14 +14,15 @@ module.exports = {
       phone
     })
 
-    return response.json()
+    return response.json({ name, cpf, address, phone })
   },
 
   /*******************************************************************************************************************************/
 
   // Listar / consultar clientes
-  // async index (request, response) {
+  async index (request, response) {
+    const clients = await connection('clients').select('*')
 
-  //   return response.json()
-  // }
+    return response.json(clients)
+  }
 }
