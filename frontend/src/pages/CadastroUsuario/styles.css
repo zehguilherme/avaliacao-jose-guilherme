@@ -1,4 +1,4 @@
-.cadastro-container {
+.cadastro-usuario-container {
   width: 100%;
   display: flex;
   align-items: center;
@@ -6,24 +6,46 @@
   text-align: center;
 }
 
-.cadastro-container .form {
+.cadastro-usuario-container .form {
   margin-top: 50px;
 }
 
-.cadastro-container .form h1 {
+.cadastro-usuario-container .form h1 {
   margin-bottom: 20px;
 }
 
-.cadastro-container .form form label {
-  display: block;
-  float: left;
-}
-
-.cadastro-container .form form input {
+.cadastro-usuario-container .form form input {
   width: 100%;
   margin-bottom: 20px;
+  border-radius: 8px;
+  border: solid gray 0.5px;
+  height: 30px;
 }
 
-.cadastro-container .form form button {
-  width: 30%;
+.cadastro-usuario-container .form form button {
+  width: 50%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: solid black;
+  transition-duration: 0.5s;
+}
+
+.cadastro-usuario-container .form form button:hover {
+  background-color: rgb(173, 172, 172);
+  border-style: double;
+}
+
+.cadastro-usuario-container .form form a {
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  color: white;
+  background: red;
+  padding: 6px;
+  border-radius: 8px;
+  transition-duration: 0.5s;
+}
+
+.cadastro-usuario-container .form form a:hover {
+  background-color: rgb(200, 0, 0);
 }
