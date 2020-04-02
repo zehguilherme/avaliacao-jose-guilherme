@@ -15,13 +15,14 @@ module.exports = {
     })
 
     return response.json({ user_name, password })
-  }
+  },
 
   /*******************************************************************************************************************************/
 
   // Listar / consultar usuários
-  // async index (request, response) {
+  async index (request, response) {
+    const users = await connection('users').select('*')
 
-  //   return response.json()
-  // }
+    return response.json(users)
+  }
 }
